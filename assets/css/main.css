@@ -180,6 +180,10 @@ input, select, textarea {
 		color: rgba(195, 139, 75, 1);
 	}
 
+	.backgroundColorYellow {
+		background: rgba(195, 139, 75, 1);
+	}
+
 	.submitFormat {
 		margin-top: 1em;
 	}
@@ -198,7 +202,6 @@ input, select, textarea {
 	.contactFormat > a {
 		margin: 2em;
 	}
-
 /* Container */
 
 	.container {
@@ -1877,7 +1880,7 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			content: '';
 			height: 100%;
 			left: 0;
